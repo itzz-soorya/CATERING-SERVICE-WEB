@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+    @apply bg-background text-foreground;
+  }
+  
+  #root {
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  :root {
+    /* Premium Catering Design System - Maroon, Gold, Cream */
+    --background: 30 15% 97%;  /* Warm cream background */
+    --foreground: 0 30% 15%;   /* Dark maroon text */
+
+    --card: 0 0% 98%;
+    --card-foreground: 0 30% 15%;
+
+    --popover: 0 0% 98%;
+    --popover-foreground: 0 30% 15%;
+
+    /* Maroon Primary */
+    --primary: 0 100% 25%;     /* Deep maroon #800000 */
+    --primary-foreground: 45 100% 95%;
+
+    /* Gold Secondary */
+    --secondary: 45 100% 50%;  /* Rich gold #FFD700 */
+    --secondary-foreground: 0 30% 15%;
+
+    --muted: 30 15% 94%;
+    --muted-foreground: 0 15% 45%;
+
+    /* Gold Accent */
+    --accent: 45 100% 50%;     /* Gold accent */
+    --accent-foreground: 0 30% 15%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 30 20% 88%;
+    --input: 30 20% 88%;
+    --ring: 0 100% 25%;
+
+    --radius: 0.75rem;  /* More rounded for premium feel */
+
+    /* Premium gradients */
+    --gradient-maroon: linear-gradient(135deg, hsl(0 100% 25%) 0%, hsl(0 80% 35%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(45 100% 50%) 0%, hsl(45 80% 60%) 100%);
+    --gradient-festive: linear-gradient(135deg, hsl(0 100% 25%) 0%, hsl(45 100% 50%) 100%);
+    
+    /* Premium shadows */
+    --shadow-maroon: 0 10px 30px -5px hsl(0 100% 25% / 0.3);
+    --shadow-gold: 0 10px 30px -5px hsl(45 100% 50% / 0.3);
+    --shadow-elegant: 0 20px 60px -10px hsl(0 100% 25% / 0.15);
+
+    /* Animations */
+    --transition-premium: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    /* Dark theme with warm maroon undertones */
+    --background: 0 20% 8%;    /* Deep dark maroon */
+    --foreground: 45 80% 85%;  /* Light gold text */
+
+    --card: 0 25% 12%;
+    --card-foreground: 45 80% 85%;
+
+    --popover: 0 25% 12%;
+    --popover-foreground: 45 80% 85%;
+
+    --primary: 45 100% 55%;    /* Bright gold for dark mode */
+    --primary-foreground: 0 30% 15%;
+
+    --secondary: 0 60% 20%;    /* Dark maroon secondary */
+    --secondary-foreground: 45 80% 85%;
+
+    --muted: 0 20% 15%;
+    --muted-foreground: 45 30% 60%;
+
+    --accent: 45 90% 55%;
+    --accent-foreground: 0 30% 15%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 45 80% 85%;
+
+    --border: 0 25% 20%;
+    --input: 0 25% 20%;
+    --ring: 45 100% 55%;
+
+    /* Dark mode gradients */
+    --gradient-maroon: linear-gradient(135deg, hsl(0 60% 20%) 0%, hsl(0 80% 30%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(45 90% 55%) 0%, hsl(45 70% 65%) 100%);
+    --gradient-festive: linear-gradient(135deg, hsl(0 60% 20%) 0%, hsl(45 90% 55%) 100%);
+  }
+}
+
+@layer components {
+  /* Premium gradient utilities */
+  .bg-gradient-maroon {
+    background: var(--gradient-maroon);
+  }
+  
+  .bg-gradient-gold {
+    background: var(--gradient-gold);
+  }
+  
+  .bg-gradient-festive {
+    background: var(--gradient-festive);
+  }
+  
+  /* Premium shadow utilities */
+  .shadow-maroon {
+    box-shadow: var(--shadow-maroon);
+  }
+  
+  .shadow-gold {
+    box-shadow: var(--shadow-gold);
+  }
+  
+  .shadow-elegant {
+    box-shadow: var(--shadow-elegant);
+  }
+  
+  /* Premium transitions */
+  .transition-premium {
+    transition: var(--transition-premium);
+  }
+}

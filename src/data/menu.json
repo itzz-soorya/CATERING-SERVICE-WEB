@@ -1,0 +1,252 @@
+{
+  "dishes": [
+    {
+      "id": "1",
+      "name": {
+        "en": "Chicken Biryani",
+        "ta": "சிக்கன் பிரியாணி"
+      },
+      "category": "non-veg",
+      "image": "https://images.unsplash.com/photo-1563379091339-03246963d96c?w=400&h=300&fit=crop",
+      "description": {
+        "en": "Aromatic basmati rice with tender chicken",
+        "ta": "மெல்லிய கோழியுடன் நறுமணமான பாஸ்மதி அரிசி"
+      }
+    },
+    {
+      "id": "2", 
+      "name": {
+        "en": "Vegetable Biryani",
+        "ta": "காய்கறி பிரியாணி"
+      },
+      "category": "veg",
+      "image": "../sweetphotos/jilabi.jpg",
+      "description": {
+        "en": "Fragrant rice with mixed vegetables and spices",
+        "ta": "கலவையான காய்கறிகள் மற்றும் மசாலாக்களுடன் நறுமணமான அரிசி"
+      }
+    },
+    {
+      "id": "3",
+      "name": {
+        "en": "Mutton Curry",
+        "ta": "ஆட்டு கறி"
+      },
+      "category": "non-veg",
+      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400&h=300&fit=crop",
+      "description": {
+        "en": "Traditional spicy mutton curry",
+        "ta": "பாரம்பரிய காரமான ஆட்டு கறி"
+      }
+    },
+    {
+      "id": "4",
+      "name": {
+        "en": "Paneer Butter Masala",
+        "ta": "பன்னீர் பட்டர் மசாலா"
+      },
+      "category": "veg",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=300&fit=crop",
+      "description": {
+        "en": "Creamy paneer in rich tomato gravy",
+        "ta": "பணக்கார தக்காளி குழம்பில் கிரீமி பன்னீர்"
+      }
+    },
+    {
+      "id": "5",
+      "name": {
+        "en": "Gulab Jamun",
+        "ta": "குலாப் ஜாமுன்"
+      },
+      "category": "sweets",
+      "image": "/src/sweetphotos/gulabjamun.png",
+      "description": {
+        "en": "Traditional milk dumplings in sugar syrup",
+        "ta": "சர்க்கரை சிரப்பில் பாரம்பரிய பால் பாலகாரம்"
+      }
+    },
+    {
+      "id": "6",
+      "name": {
+        "en": "Jilebi",
+        "ta": "ஜிலேபி"
+      },
+      "category": "sweets",
+      "image": "/src/sweetphotos/jilabi.png",
+      "description": {
+        "en": "Crispy spiral sweet soaked in syrup",
+        "ta": "சிரப்பில் ஊறிய மொறுமொறுப்பான சுழல் இனிப்பு"
+      }
+    },
+    {
+      "id": "7",
+      "name": {
+        "en": "Kesari",
+        "ta": "கேசரி"
+      },
+      "category": "sweets",
+      "image": "/src/sweetphotos/kesari.png",
+      "description": {
+        "en": "Traditional semolina sweet with ghee",
+        "ta": "நெய் சேர்த்த பாரம்பரிய ரவை இனிப்பு"
+      }
+    },
+    {
+      "id": "8",
+      "name": {
+        "en": "Laddu",
+        "ta": "லட்டு"
+      },
+      "category": "sweets",
+      "image": "/src/sweetphotos/laddu.png",
+      "description": {
+        "en": "Round sweet balls made with gram flour",
+        "ta": "கடலை மாவால் செய்யப்பட்ட உருண்டை இனிப்பு"
+      }
+    },
+    {
+      "id": "9",
+      "name": {
+        "en": "Payasam",
+        "ta": "பாயசம்"
+      },
+      "category": "sweets",
+      "image": "/src/sweetphotos/payasam.png",
+      "description": {
+        "en": "Traditional sweet milk pudding",
+        "ta": "பாரம்பரிய இனிப்பு பால் புட்டிங்"
+      }
+    },
+    {
+      "id": "10",
+      "name": {
+        "en": "Carrot Halwa",
+        "ta": "கேரட் ஹல்வா"
+      },
+      "category": "sweets",
+      "image": "/src/sweetphotos/carrothalwa.png",
+      "description": {
+        "en": "Sweet carrot pudding with milk and ghee",
+        "ta": "பால் மற்றும் நெய் சேர்த்த இனிப்பு கேரட் புட்டிங்"
+      }
+    },
+    {
+      "id": "11",
+      "name": {
+        "en": "Bread Halwa",
+        "ta": "ப்ரெட் ஹல்வா"
+      },
+      "category": "sweets",
+      "image": "/src/sweetphotos/breadhalwa.png",
+      "description": {
+        "en": "Sweet bread pudding with milk",
+        "ta": "பாலுடன் இனிப்பு ப்ரெட் புட்டிங்"
+      }
+    },
+    {
+      "id": "12",
+      "name": {
+        "en": "Pineapple Halwa",
+        "ta": "அன்னாசி ஹல்வா"
+      },
+      "category": "sweets",
+      "image": "/src/sweetphotos/pineapplehalwa.png",
+      "description": {
+        "en": "Sweet pineapple pudding",
+        "ta": "இனிப்பு அன்னாசி புட்டிங்"
+      }
+    },
+    {
+      "id": "13",
+      "name": {
+        "en": "Pumpkin Halwa",
+        "ta": "பூசணி ஹல்வா"
+      },
+      "category": "sweets",
+      "image": "/src/sweetphotos/poosanihalwa.png",
+      "description": {
+        "en": "Sweet pumpkin pudding",
+        "ta": "இனிப்பு பூசணி புட்டிங்"
+      }
+    },
+    {
+      "id": "14",
+      "name": {
+        "en": "Karupatti Halwa",
+        "ta": "கருப்பட்டி ஹல்வா"
+      },
+      "category": "sweets",
+      "image": "/src/sweetphotos/karupattihalwa.png",
+      "description": {
+        "en": "Traditional palm jaggery halwa",
+        "ta": "பாரம்பரிய பனை கருப்பட்டி ஹல்வா"
+      }
+    },
+    {
+      "id": "15",
+      "name": {
+        "en": "Peanut Ladoo",
+        "ta": "கடலைப் பருப்பு லட்டு"
+      },
+      "category": "sweets",
+      "image": "/src/sweetphotos/peanutladoo.png",
+      "description": {
+        "en": "Sweet peanut balls with jaggery",
+        "ta": "வெல்லத்துடன் இனிப்பு கடலைப் பருப்பு உருண்டை"
+      }
+    },
+    {
+      "id": "16",
+      "name": {
+        "en": "Oppputu",
+        "ta": "ஒப்புட்டு"
+      },
+      "category": "sweets",
+      "image": "/src/sweetphotos/opputu.png",
+      "description": {
+        "en": "Traditional stuffed sweet pancake",
+        "ta": "பாரம்பரிய நிரப்பப்பட்ட இனிப்பு பான்கேக்"
+      }
+    },
+    {
+      "id": "17",
+      "name": {
+        "en": "Semiya Kesari",
+        "ta": "சேமியா கேசரி"
+      },
+      "category": "sweets",
+      "image": "/src/sweetphotos/semiyakesari.png",
+      "description": {
+        "en": "Sweet vermicelli pudding",
+        "ta": "இனிப்பு வெர்மிசெல்லி புட்டிங்"
+      }
+    },
+    {
+      "id": "18",
+      "name": {
+        "en": "Fish Curry",
+        "ta": "மீன் கறி"
+      },
+      "category": "non-veg",
+      "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=400&h=300&fit=crop",
+      "description": {
+        "en": "Spicy fish curry with coconut milk",
+        "ta": "தேங்காய் பாலுடன் காரமான மீன் கறி"
+      }
+    },
+    {
+      "id": "19",
+      "name": {
+        "en": "Dal Tadka",
+        "ta": "தால் தட்கா"
+      },
+      "category": "veg",
+      "image": "https://images.unsplash.com/photo-1571197119282-7c4a2b1170ce?w=400&h=300&fit=crop",
+      "description": {
+        "en": "Lentil curry with spiced tempering",
+        "ta": "மசாலா தாளிப்புடன் பருப்பு கறி"
+      }
+    }
+    
+  ]
+}

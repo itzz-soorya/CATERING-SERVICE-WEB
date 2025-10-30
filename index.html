@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Permissions-Policy" content="navigation-preload=(), service-worker=()" />
+    <title>Festive Feast - Premium Catering Services</title>
+    <meta name="description" content="Professional catering services for weddings, parties, corporate events and special occasions. Authentic Tamil cuisine with exceptional service." />
+    <meta name="author" content="Festive Feast Catering" />
+    <meta name="keywords" content="catering, Tamil cuisine, wedding catering, corporate events, party catering, Chennai, authentic food" />
+    
+    <!-- Google Fonts for Premium Design -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Festive Feast - Premium Catering Services" />
+    <meta property="og:description" content="Professional catering services for weddings, parties, corporate events. Authentic Tamil cuisine with exceptional service." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://itzz-soorya.github.io/festive-feast-pro1/" />
+    <meta property="og:site_name" content="Festive Feast Catering" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Festive Feast - Premium Catering Services" />
+    <meta name="twitter:description" content="Professional catering services for weddings, parties, corporate events. Authentic Tamil cuisine with exceptional service." />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  </head>
+
+  <body>
+    <!-- GitHub Pages SPA redirect script -->
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+
+    <!-- Disable service worker navigation preload to prevent warnings -->
+    <script type="text/javascript">
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+          for(let registration of registrations) {
+            if (registration.navigationPreload) {
+              registration.navigationPreload.disable().catch(() => {});
+            }
+          }
+        }).catch(() => {});
+      }
+    </script>
+    
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
